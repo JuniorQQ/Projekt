@@ -1,0 +1,103 @@
+.clear{
+        clear: both;
+}
+body{
+        width: auto;
+        background-color: black;
+}
+header{ 
+        
+        width: auto;
+        height: 460px;
+        overflow: hidden;
+        margin: 0;
+}
+.logo{
+        
+        width: 100%;
+        margin: -19% 0 0 0;
+}
+ul{     
+        width: auto;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+        background-color: black;
+        
+}
+li{
+        display: inline-block;
+}
+li a{   
+        letter-spacing: 2px;
+        padding: 220px;
+        color: dimgray;
+        text-align: center;
+        text-decoration: none;
+}
+li a:hover:not(.active){
+        background-color: #111;
+}
+.active{
+        color: darkgoldenrod;
+}
+h1{
+        color: darkgoldenrod;
+        text-align: center;
+        letter-spacing: 5px;
+}
+h5{
+        color: darkgoldenrod;
+        text-align: center;
+        
+}
+.main{
+        width: 100%;
+        text-align: center;
+        
+}
+table{      
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+        float: none;
+        
+}
+article img{
+        padding: 10px;
+        -moz-transition: all 1s ease;
+}
+article img:hover{
+        width: 660px;
+        height: 516px;
+}
+
+.text{
+        color: gray;
+        text-align: justify;
+        margin: 0 200px 0 200px;
+        text-indent: 50px;
+}
+.mainimg{
+        width: auto;
+        display: inline-block;
+        margin: 0 0 0 30px;
+}
+.logof{
+        width: auto;
+        float: left;
+        margin-left: -20px;
+
+}
+.copy{
+        width: auto;
+        color: darkgoldenrod;
+        text-align: center;
+}
+.media{ 
+        float: right;
+        margin-right: 10px;
+}
